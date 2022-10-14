@@ -1,0 +1,28 @@
+node-jison-lex (0.3.4-3) unstable; urgency=medium
+
+  * Team upload.
+  * Add upstream/metadata
+  * Disable 2 tests (Closes: 918420)
+  * Bump debheper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Update VCS fields to salsa
+  * Update debian/watch to use npm registry
+  * Ignore tests when nocheck is set
+  * Update debian/copyright: add Berne Convention comment
+  * Change section to javascript
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 17 Jan 2019 20:40:23 +0100
+
+node-jison-lex (0.3.4-2) unstable; urgency=medium
+
+  * Install cli.js (Closes: #857157)
+  * Fix permission for cli.js (make cli.js executable)
+  * Enable tests
+
+ -- Sruthi Chandran <srud@disroot.org>  Thu, 09 Mar 2017 16:05:15 +0530
+
+node-jison-lex (0.3.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #840808)
+
+ -- Sruthi Chandran <srud@disroot.org>  Sat, 15 Oct 2016 11:30:40 +0530

@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-jison-lex
+
+Test-Command: nodejs tests/all-tests.js
+Depends: @, @builddeps@
