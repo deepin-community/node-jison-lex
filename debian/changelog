@@ -1,3 +1,24 @@
+node-jison-lex (0.3.4-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+  * Bump debhelper from old 11 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto test & install
+  * Mark test dependencies with <!nocheck>
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Sun, 04 Sep 2022 14:48:34 +0200
+
 node-jison-lex (0.3.4-3) unstable; urgency=medium
 
   * Team upload.

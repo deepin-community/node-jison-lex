@@ -7,13 +7,6 @@
 %:
 	dh $@
 
-#override_dh_auto_build:
-
-override_dh_auto_test:
-ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS) $(DEB_BUILD_PROFILES)))
-	nodejs tests/all-tests.js
-endif
-
 override_dh_fixperms:
 	dh_fixperms
-	chmod +x debian/node-jison-lex/usr/lib/nodejs/jison-lex/cli.js
+	chmod +x debian/node-jison-lex/usr/share/nodejs/jison-lex/cli.js
